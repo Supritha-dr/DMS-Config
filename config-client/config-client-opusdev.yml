@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+dms:
+  baseurl: http://localhost:8082/document
+  tenantBaseUrl: http://localhost:8082/tenant
+  tableConfigBaseUrl: http://localhost:8082/tableConfig
+  graphQLbaseurl: http://localhost:8082/graphql
+
+spring:
+  logging:
+    enabled: true
+  cloud:
+    kubernetes: 
+      enabled: true
+      reload:
+        enabled: true
