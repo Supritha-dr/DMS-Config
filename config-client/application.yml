@@ -23,4 +23,4 @@ spring:
         initial-interval: 2000
         multiplier: 1.5
 dms:
-  baseurl: Please get data
+  baseurl: http://localhost:8082/document
